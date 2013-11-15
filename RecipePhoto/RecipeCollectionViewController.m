@@ -29,6 +29,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 
+    NSArray *photos = [self loadFromPList];
+    //RecipeCollectionViewController *viewController = (RecipeCollectionViewController *) self.window.rootViewController;
+    
+    self.photos = photos;
     
     
 }
@@ -55,6 +59,27 @@
     label.text = img.name;
     
     return cell;
+}
+
+
+- (NSArray *) loadFromPList {
+    NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"images" withExtension:@"plist"];
+    
+    NSArray *photos = [NSArray arrayWithContentsOfURL:plistURL];
+    
+    NSMutableArray *photoList = [NSMutableArray array];
+    
+    for(id photo in photos)
+    {
+        CoasterImage *image = [[CoasterImage alloc]init];
+        image.name = photo[@"name"];
+        image.filename = photo[@"filename"];
+        
+        [photoList addObject:image];
+        
+    }
+    
+    return photoList;
 }
 
 - (void)didReceiveMemoryWarning

@@ -16,12 +16,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    
+    /*
     NSArray *photos = [self loadFromPList];
     RecipeCollectionViewController *viewController = (RecipeCollectionViewController *) self.window.rootViewController;
     
     viewController.photos = photos;
-    
+    */
     
     return YES;
 }

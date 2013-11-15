@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RecipeCollectionViewController : UICollectionViewController
+@interface RecipeCollectionViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property NSArray *photos;
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
