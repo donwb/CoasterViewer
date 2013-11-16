@@ -13,7 +13,7 @@
 		ED3A89F81836A26B0019DD9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3A89F61836A26B0019DD9D /* InfoPlist.strings */; };
 		ED3A89FA1836A26B0019DD9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A89F91836A26B0019DD9D /* main.m */; };
 		ED3A89FE1836A26B0019DD9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A89FD1836A26B0019DD9D /* AppDelegate.m */; };
-		ED3A8A011836A26B0019DD9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A89FF1836A26B0019DD9D /* Main.storyboard */; };
+		ED3A8A011836A26B0019DD9D /* Main_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A89FF1836A26B0019DD9D /* Main_iphone.storyboard */; };
 		ED3A8A041836A26B0019DD9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A031836A26B0019DD9D /* ViewController.m */; };
 		ED3A8A061836A26B0019DD9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A051836A26B0019DD9D /* Images.xcassets */; };
 		ED3A8A0D1836A26B0019DD9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A8A0C1836A26B0019DD9D /* XCTest.framework */; };
@@ -25,6 +25,7 @@
 		ED3A8A291836A9CA0019DD9D /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A281836A9CA0019DD9D /* images.plist */; };
 		ED3A8A2C1836AE300019DD9D /* CoasterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A2B1836AE300019DD9D /* CoasterImage.m */; };
 		ED3A8A2F1837C1950019DD9D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A2E1837C1950019DD9D /* DetailViewController.m */; };
+		ED3A8A7A1837D6E00019DD9D /* Main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A781837D6E00019DD9D /* Main_ipad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,7 @@
 		ED3A89FB1836A26B0019DD9D /* Coaster Viewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coaster Viewer-Prefix.pch"; sourceTree = "<group>"; };
 		ED3A89FC1836A26B0019DD9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED3A89FD1836A26B0019DD9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED3A8A001836A26B0019DD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED3A8A001836A26B0019DD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iphone.storyboard; sourceTree = "<group>"; };
 		ED3A8A021836A26B0019DD9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ED3A8A031836A26B0019DD9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED3A8A051836A26B0019DD9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		ED3A8A2B1836AE300019DD9D /* CoasterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoasterImage.m; sourceTree = "<group>"; };
 		ED3A8A2D1837C1950019DD9D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		ED3A8A2E1837C1950019DD9D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ED3A8A791837D6E00019DD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_ipad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		ED3A89E11836A26B0019DD9D = {
 			isa = PBXGroup;
 			children = (
+				ED3A8A741837D21C0019DD9D /* iPad */,
 				ED3A89F31836A26B0019DD9D /* RecipePhoto */,
 				ED3A8A121836A26B0019DD9D /* RecipePhotoTests */,
 				ED3A89EC1836A26B0019DD9D /* Frameworks */,
@@ -125,7 +128,8 @@
 			children = (
 				ED3A89FC1836A26B0019DD9D /* AppDelegate.h */,
 				ED3A89FD1836A26B0019DD9D /* AppDelegate.m */,
-				ED3A89FF1836A26B0019DD9D /* Main.storyboard */,
+				ED3A89FF1836A26B0019DD9D /* Main_iphone.storyboard */,
+				ED3A8A781837D6E00019DD9D /* Main_ipad.storyboard */,
 				ED3A8A021836A26B0019DD9D /* ViewController.h */,
 				ED3A8A031836A26B0019DD9D /* ViewController.m */,
 				ED3A8A2D1837C1950019DD9D /* DetailViewController.h */,
@@ -168,6 +172,13 @@
 				ED3A8A151836A26B0019DD9D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3A8A741837D21C0019DD9D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,10 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3A8A7A1837D6E00019DD9D /* Main_ipad.storyboard in Resources */,
 				ED3A8A291836A9CA0019DD9D /* images.plist in Resources */,
 				ED3A8A061836A26B0019DD9D /* Images.xcassets in Resources */,
 				ED3A89F81836A26B0019DD9D /* InfoPlist.strings in Resources */,
-				ED3A8A011836A26B0019DD9D /* Main.storyboard in Resources */,
+				ED3A8A011836A26B0019DD9D /* Main_iphone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,12 +316,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		ED3A89FF1836A26B0019DD9D /* Main.storyboard */ = {
+		ED3A89FF1836A26B0019DD9D /* Main_iphone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ED3A8A001836A26B0019DD9D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main_iphone.storyboard;
 			sourceTree = "<group>";
 		};
 		ED3A8A151836A26B0019DD9D /* InfoPlist.strings */ = {
@@ -318,6 +330,14 @@
 				ED3A8A161836A26B0019DD9D /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED3A8A781837D6E00019DD9D /* Main_ipad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3A8A791837D6E00019DD9D /* Base */,
+			);
+			name = Main_ipad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,7 +423,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecipePhoto/Coaster Viewer-Prefix.pch";
 				INFOPLIST_FILE = "RecipePhoto/Coaster Viewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "Coaster Viewer";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -416,7 +438,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecipePhoto/Coaster Viewer-Prefix.pch";
 				INFOPLIST_FILE = "RecipePhoto/Coaster Viewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "Coaster Viewer";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -482,6 +506,7 @@
 				ED3A8A1E1836A26B0019DD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED3A8A1F1836A26B0019DD9D /* Build configuration list for PBXNativeTarget "Coaster ViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				ED3A8A211836A26B0019DD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
