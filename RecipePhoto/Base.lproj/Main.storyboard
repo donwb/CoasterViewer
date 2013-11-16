@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="729" y="-2"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="5U2-qw-boT">
             <objects>
-                <viewController id="KD8-Et-oxA" sceneMemberID="viewController">
+                <viewController id="KD8-Et-oxA" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZZg-qu-vwP"/>
                         <viewControllerLayoutGuide type="bottom" id="gPG-EI-vY8"/>
@@ -82,15 +82,23 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NO6-nG-TS5">
-                                <rect key="frame" x="139" y="273" width="40" height="21"/>
+                                <rect key="frame" x="20" y="72" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8mw-I1-Lbu">
+                                <rect key="frame" x="20" y="113" width="280" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="CO8-AF-loy"/>
+                    <connections>
+                        <outlet property="photo" destination="8mw-I1-Lbu" id="LaH-vh-Q66"/>
+                        <outlet property="photoName" destination="NO6-nG-TS5" id="0Kd-1Z-uGX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abk-ck-ftR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,6 +8,7 @@
 
 #import "RecipeCollectionViewController.h"
 #import "CoasterImage.h"
+#import "DetailViewController.h"
 
 @interface RecipeCollectionViewController ()
 
@@ -84,10 +85,14 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    DetailViewController *detail = (DetailViewController *) segue.destinationViewController;
+    
     NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
     NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
     
     CoasterImage *img = [self.photos objectAtIndex:indexPath.row];
+    detail.selectedImage = img;
+    
     NSLog(@"%@", img.name);
 }
 
