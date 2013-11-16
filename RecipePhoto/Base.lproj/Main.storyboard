@@ -51,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="1168" y="-122"/>
         </scene>
-        <!--Recipe Collection View Controller - Coasters-->
+        <!--Recipe Collection View Controller - City Coasters-->
         <scene sceneID="5sg-AT-5za">
             <objects>
                 <viewController id="w6A-bL-bJj" customClass="RecipeCollectionViewController" sceneMemberID="viewController">
@@ -104,7 +104,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Coasters" id="er1-rJ-Cej"/>
+                    <navigationItem key="navigationItem" title="City Coasters" id="er1-rJ-Cej"/>
                     <connections>
                         <outlet property="collectionView" destination="SRi-FM-lgE" id="BHO-Ms-gJ7"/>
                     </connections>

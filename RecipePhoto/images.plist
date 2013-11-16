@@ -170,5 +170,197 @@
 		<key>filename</key>
 		<string>downtown from north ave</string>
 	</dict>
+    <dict>
+		<key>name</key>
+		<string>East Lake</string>
+		<key>filename</key>
+		<string>East Lake</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ebenezer</string>
+		<key>filename</key>
+		<string>Ebenezer</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Eddie's Attic</string>
+		<key>filename</key>
+		<string>Eddies</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>Everybodys</string>
+		<key>name</key>
+		<string>Everybodys</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fado</string>
+		<key>filename</key>
+		<string>fado</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Farm Burger</string>
+		<key>filename</key>
+		<string>Farm Burger</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Fat Matt's'</string>
+		<key>filename</key>
+		<string>Fat Matts</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Fontaines</string>
+		<key>filename</key>
+		<string>Fontaines-2</string>
+	</dict>
+	<dict>
+		<key>filename</key>
+		<string>Fox</string>
+		<key>name</key>
+		<string>Fox Theater</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Georgia Tech</string>
+		<key>filename</key>
+		<string>gatech-triangle</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Decatur Gazebo</string>
+		<key>filename</key>
+		<string>Gazebo</string>
+	</dict>
+    <dict>
+		<key>filename</key>
+		<string>georges</string>
+		<key>name</key>
+		<string>Georges</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Go Decatur</string>
+		<key>filename</key>
+		<string>Go Decatur</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Grant Park</string>
+		<key>filename</key>
+		<string>Grant Park Sign</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Hand n Hand Sign</string>
+		<key>filename</key>
+		<string>Hand and Hand 2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hand n Hand</string>
+		<key>filename</key>
+		<string>Hand n Hand bldg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Inman Park</string>
+		<key>filename</key>
+		<string>Inman Park Sign-New</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Inman Park</string>
+		<key>filename</key>
+		<string>Inman park sign</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Irwin Street Market</string>
+		<key>filename</key>
+		<string>Irwin Street Market</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ITP</string>
+		<key>filename</key>
+		<string>itp-black</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Downtown at Daybreak</string>
+		<key>filename</key>
+		<string>Jackson St daybreak</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jackson Street</string>
+		<key>filename</key>
+		<string>Jackson St night</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Java Monkey</string>
+		<key>filename</key>
+		<string>Java Monkey</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Jefferson</string>
+		<key>filename</key>
+		<string>Jefferson</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Joe's on Juniper</string>
+		<key>filename</key>
+		<string>Joes-upclose</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Joe's on Juniper</string>
+		<key>filename</key>
+		<string>Joes-whole sign</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>King and Queen</string>
+		<key>filename</key>
+		<string>king and queen</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kirkwood</string>
+		<key>filename</key>
+		<string>Kirkwood</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Krog</string>
+		<key>filename</key>
+		<string>Krog</string>
+	</dict>
+    <dict>
+		<key>name</key>
+		<string>Little 5 Points</string>
+		<key>filename</key>
+		<string>l5p</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Leaving Atlanta</string>
+		<key>filename</key>
+		<string>Leaving Atlanta-New</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Leons</string>
+		<key>filename</key>
+		<string>Leons</string>
+	</dict>
 </array>
 </plist>
