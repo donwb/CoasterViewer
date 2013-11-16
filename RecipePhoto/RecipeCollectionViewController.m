@@ -82,6 +82,16 @@
     return photoList;
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
+    NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
+    
+    CoasterImage *img = [self.photos objectAtIndex:indexPath.row];
+    NSLog(@"%@", img.name);
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
