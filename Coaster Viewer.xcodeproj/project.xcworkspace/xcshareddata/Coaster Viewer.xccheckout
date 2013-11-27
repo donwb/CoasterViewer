@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>38FF48FC-2FE7-462D-833B-07B8B2FE4BF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Coaster Viewer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E68B194B-D79F-40B9-842F-D4E58DAF0C2C</key>
+		<string>https://github.com/donwb/CoasterViewer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Coaster Viewer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E68B194B-D79F-40B9-842F-D4E58DAF0C2C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/donwb/CoasterViewer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E68B194B-D79F-40B9-842F-D4E58DAF0C2C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E68B194B-D79F-40B9-842F-D4E58DAF0C2C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoasterViewer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
