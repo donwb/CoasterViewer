@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77F1F11618467E5800F2038E /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
 		ED3A89EA1836A26B0019DD9D /* Coaster Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coaster Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3A89ED1836A26B0019DD9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED3A89EF1836A26B0019DD9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -134,6 +135,7 @@
 				ED3A8A031836A26B0019DD9D /* ViewController.m */,
 				ED3A8A2D1837C1950019DD9D /* DetailViewController.h */,
 				ED3A8A2E1837C1950019DD9D /* DetailViewController.m */,
+				77F1F11618467E5800F2038E /* constants.h */,
 				ED3A8A051836A26B0019DD9D /* Images.xcassets */,
 				ED3A89F41836A26B0019DD9D /* Supporting Files */,
 				ED3A8A251836A3A90019DD9D /* RecipeCollectionViewController.h */,

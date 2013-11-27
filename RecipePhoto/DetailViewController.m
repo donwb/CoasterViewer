@@ -7,11 +7,13 @@
 //
 
 #import "DetailViewController.h"
+#import "constants.h";
 
 @interface DetailViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *photoName;
 @property (weak, nonatomic) IBOutlet UIImageView *photo;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *ipadImageView;
 
 @end
 
@@ -43,19 +45,29 @@
 
 - (void)orientationChanged:(NSNotification *)notification {
     UIInterfaceOrientation current = [UIApplication sharedApplication].statusBarOrientation;
-    if(current == UIDeviceOrientationPortrait)
+
+ 
+    CGRect frame;
+    if((current == UIDeviceOrientationLandscapeLeft) ||
+       (current == UIDeviceOrientationLandscapeRight))
     {
-        NSLog(@"Portrait");
-        // seems to default back to the way it's designed in the storyboard
-    } else {
-        NSLog(@"Landscape");
-        CGRect frame = self.imageView.frame;
-        frame.origin.x = 190;
-        frame.origin.y = 70;
-        frame.size.height = 230;
-        frame.size.width = 230;
-        self.imageView.frame = frame;
+        if(IS_IPHONE) {
+            frame = self.imageView.frame;
+            frame.origin.x = 190;
+            frame.origin.y = 70;
+            frame.size.height = 230;
+            frame.size.width = 230;
+            self.imageView.frame = frame;
+        } else {
+            frame = self.ipadImageView.frame;
+            frame.origin.x = 200;
+            frame.origin.y = 100;
+            frame.size.width = 650;
+            frame.size.height = 650;
+            self.ipadImageView.frame = frame;
+        }
     }
+    
 }
 
 - (void)didReceiveMemoryWarning
