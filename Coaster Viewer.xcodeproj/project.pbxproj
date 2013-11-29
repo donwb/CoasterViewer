@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77A2DA1E184856E800BEEBDB /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77A2DA1D184856E800BEEBDB /* images.plist */; };
 		ED3A89EE1836A26B0019DD9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89ED1836A26B0019DD9D /* Foundation.framework */; };
 		ED3A89F01836A26B0019DD9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89EF1836A26B0019DD9D /* CoreGraphics.framework */; };
 		ED3A89F21836A26B0019DD9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A89F11836A26B0019DD9D /* UIKit.framework */; };
@@ -22,7 +23,7 @@
 		ED3A8A171836A26B0019DD9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A151836A26B0019DD9D /* InfoPlist.strings */; };
 		ED3A8A191836A26B0019DD9D /* RecipePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A181836A26B0019DD9D /* RecipePhotoTests.m */; };
 		ED3A8A271836A3A90019DD9D /* RecipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A261836A3A90019DD9D /* RecipeCollectionViewController.m */; };
-		ED3A8A291836A9CA0019DD9D /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A281836A9CA0019DD9D /* images.plist */; };
+		ED3A8A291836A9CA0019DD9D /* images-old.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A281836A9CA0019DD9D /* images-old.plist */; };
 		ED3A8A2C1836AE300019DD9D /* CoasterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A2B1836AE300019DD9D /* CoasterImage.m */; };
 		ED3A8A2F1837C1950019DD9D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A8A2E1837C1950019DD9D /* DetailViewController.m */; };
 		ED3A8A7A1837D6E00019DD9D /* Main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A8A781837D6E00019DD9D /* Main_ipad.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77A2DA1D184856E800BEEBDB /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
 		77F1F11618467E5800F2038E /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
 		ED3A89EA1836A26B0019DD9D /* Coaster Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coaster Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3A89ED1836A26B0019DD9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,7 +63,7 @@
 		ED3A8A181836A26B0019DD9D /* RecipePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipePhotoTests.m; sourceTree = "<group>"; };
 		ED3A8A251836A3A90019DD9D /* RecipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController.h; sourceTree = "<group>"; };
 		ED3A8A261836A3A90019DD9D /* RecipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController.m; sourceTree = "<group>"; };
-		ED3A8A281836A9CA0019DD9D /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
+		ED3A8A281836A9CA0019DD9D /* images-old.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "images-old.plist"; sourceTree = "<group>"; };
 		ED3A8A2A1836AE300019DD9D /* CoasterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoasterImage.h; sourceTree = "<group>"; };
 		ED3A8A2B1836AE300019DD9D /* CoasterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoasterImage.m; sourceTree = "<group>"; };
 		ED3A8A2D1837C1950019DD9D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -140,7 +142,8 @@
 				ED3A89F41836A26B0019DD9D /* Supporting Files */,
 				ED3A8A251836A3A90019DD9D /* RecipeCollectionViewController.h */,
 				ED3A8A261836A3A90019DD9D /* RecipeCollectionViewController.m */,
-				ED3A8A281836A9CA0019DD9D /* images.plist */,
+				ED3A8A281836A9CA0019DD9D /* images-old.plist */,
+				77A2DA1D184856E800BEEBDB /* images.plist */,
 				ED3A8A2A1836AE300019DD9D /* CoasterImage.h */,
 				ED3A8A2B1836AE300019DD9D /* CoasterImage.m */,
 			);
@@ -260,7 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3A8A7A1837D6E00019DD9D /* Main_ipad.storyboard in Resources */,
-				ED3A8A291836A9CA0019DD9D /* images.plist in Resources */,
+				77A2DA1E184856E800BEEBDB /* images.plist in Resources */,
+				ED3A8A291836A9CA0019DD9D /* images-old.plist in Resources */,
 				ED3A8A061836A26B0019DD9D /* Images.xcassets in Resources */,
 				ED3A89F81836A26B0019DD9D /* InfoPlist.strings in Resources */,
 				ED3A8A011836A26B0019DD9D /* Main_iphone.storyboard in Resources */,
